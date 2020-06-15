@@ -1,0 +1,4 @@
+Version History:
+
+V1.0: Reads the DHT value into the serial port.
+V1.1: Publishes the DHT values over MQTT.
