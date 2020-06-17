@@ -9,4 +9,5 @@ V2: Making use of the sensor data
 -  V2.1: Python script to read the data files and plot the data (can be done externally to system).
 
 V3: Controlling a lamp with the data
--  V3.1: Python script to turn the lamp on when it gets dark in the evening (lamp controlled by sonoff plug)
+-  V3.0: Python script to turn the lamp on when it gets dark in the evening (lamp controlled by sonoff plug)
+-  V3.1: Controlling a laptop charger instead. Anything with a numerical value can be used for conrol.
