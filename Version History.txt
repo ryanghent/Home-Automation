@@ -1,11 +1,12 @@
 Version History:
 
 V1: Basic sensor functionality
-V1.0: Reads the DHT value into the serial port.
-V1.1: Publishes the DHT values over MQTT, as well as the analog read light value.
+-  V1.0: Reads the DHT value into the serial port.
+-  V1.1: Publishes the DHT values over MQTT, as well as the analog read light value.
 
 V2: Making use of the sensor data
-V2.0: Python script to store the data values in text files for plotting later.
-V2.1: Python script to read the data files and plot the data (can be done externally to system).
+-  V2.0: Python script to store the data values in text files for plotting later.
+-  V2.1: Python script to read the data files and plot the data (can be done externally to system).
 
 V3: Controlling a lamp with the data
+-  V3.1: Python script to turn the lamp on when it gets dark in the evening (lamp controlled by sonoff plug)

@@ -25,7 +25,7 @@ def on_message(client, userdata, message):
     print("message retain flag=",message.retain)
 
 ########################################
-broker_address="192.168.1.38" #Locally hosted from my Raspberry pi
+broker_address="192.168.1.XX" #Locally hosted from my Raspberry pi
 #broker_address="test.mosquitto.org" #Externally hosted from Mosquitto. Comment in/out as needed
 print("creating new instance")
 client = mqtt.Client("P1") #create new instance
